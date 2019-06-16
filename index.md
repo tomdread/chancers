@@ -17,7 +17,7 @@ services:
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Open Mic At The International Bar
-textline: Lube recordings from The International Bar, 23 Wicklow Street, Dublin 2.
+textline: Live recordings from The International Bar, 23 Wicklow Street, Dublin 2.
 hero_button:
   text: Learn more
   href: "/about"
