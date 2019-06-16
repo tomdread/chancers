@@ -38,5 +38,10 @@ fields:
   type: text
   hidden: true
   default: post
+- name: audio_file
+  type: file
+  config:
+    maxSize: 250
+  label: Audio File
 pages:
 - _posts/2019-06-14-deirdre-harris-and-tom-wilde.md
