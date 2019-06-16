@@ -1,4 +1,26 @@
 ---
 label: Song
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: The title of a song
+- name: audio
+  type: file
+  config:
+    maxSize: 250
+  label: Audio File
+  description: File upload
+- name: song_lyrics
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Song lyrics
+  description: Enter the song lyrics
