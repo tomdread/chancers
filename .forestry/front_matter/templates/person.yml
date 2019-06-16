@@ -36,4 +36,5 @@ fields:
   hidden: true
   default: person
 pages:
+- _people/deirdre-harris.md
 - _people/tom-wilde.md
