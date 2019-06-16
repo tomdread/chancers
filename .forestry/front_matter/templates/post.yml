@@ -25,6 +25,12 @@ fields:
   name: banner_image
   label: Banner Image
   description: Ideal dimensions 2500px by 1200px
+- name: audio_file
+  type: file
+  config:
+    maxSize: 250
+  label: Audio File
+  hidden: false
 - type: list
   name: related_posts
   label: Related Posts
@@ -38,11 +44,6 @@ fields:
   type: text
   hidden: true
   default: post
-- name: audio_file
-  type: file
-  config:
-    maxSize: 250
-  label: Audio File
 pages:
 - _posts/2019-06-14-deirdre-harris-and-tom-wilde-3.md
 - _posts/2019-06-14-deirdre-harris-and-tom-wilde.md
