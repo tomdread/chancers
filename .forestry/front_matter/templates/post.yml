@@ -44,4 +44,5 @@ fields:
     maxSize: 250
   label: Audio File
 pages:
+- _posts/deirdre-harris-and-tom-wilde-3.md
 - _posts/2019-06-14-deirdre-harris-and-tom-wilde.md
