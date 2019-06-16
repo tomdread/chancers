@@ -78,5 +78,11 @@ fields:
   type: text
   hidden: true
   default: home
+- name: audio_file
+  type: file
+  config:
+    maxSize: 250
+  label: Audio File
+  description: File upload
 pages:
 - index.md
